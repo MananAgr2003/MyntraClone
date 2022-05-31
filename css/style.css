@@ -142,9 +142,10 @@ h1{
     top: 1020px;
     width: 98.5vw;
 }
-.con3-table{overflow-y: hidden;
+.con3-table{
+    overflow-y: hidden;
     
-    width: 98.5vw;
+    width:100%;
     padding: 0px;
     display: grid;
     column-gap: 0px;
@@ -155,4 +156,37 @@ h1{
 .con3 h1{
 
     width: 40%;
+}
+@media(max-width : 950px){
+    .con2-table{
+        width: 100%;
+        padding: 0px;
+        display: grid;
+        column-gap: 0px;
+        grid-template-columns:repeat(9 , auto);
+        margin-top: 80px;overflow-x: scroll;
+    }
+    .con3-table{
+        overflow-y: hidden;
+        overflow-x: scroll;
+        width: 98.5vw;
+        padding: 0px;
+        display: grid;
+        column-gap: 0px;
+        grid-template-rows: repeat(2,auto);
+        grid-template-columns:repeat(9 , auto);
+        margin-top: 80px;
+    }
+    nav{
+        width: 100vw;
+    }
+    .con1{
+        width: 100vw;
+    }
+    .con2{
+        width: 100vw;
+    }
+    .con3{
+        width: 100vw;
+    }
 }
