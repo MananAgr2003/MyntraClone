@@ -21,6 +21,12 @@ nav ul{
     display: flex;
     flex-direction: row;
 }
+.nav-element1{
+    display: none;
+}
+.nav-element2{
+    display: none;
+}
 .nav-element{
     font-size: 16px;
     padding-top: 26px;                                           
@@ -116,15 +122,16 @@ width: 42%;
 h1{
     margin-top: 30px;
     margin-left: 40px;
-    width: 20%;
+    width: 100%;
     
     color: #3E4167;
 }
 .con2-table{
     width: 100%;
-    padding: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
     display: grid;
-    column-gap: 0px;
+    
     grid-template-columns:repeat(9 , auto);
     margin-top: 80px;
 }
@@ -143,6 +150,7 @@ h1{
     width: 98.5vw;
 }
 .con3-table{
+    overflow-x: scroll;
     overflow-y: hidden;
     
     width:100%;
@@ -155,9 +163,16 @@ h1{
 }
 .con3 h1{
 
-    width: 40%;
+    width: 100%;
 }
 @media(max-width : 950px){
+    .nav-element{
+        display: none;
+    }
+    #logo{
+        top: 10px;
+        left: 65px;
+    }
     .con2-table{
         width: 100%;
         padding: 0px;
@@ -201,5 +216,23 @@ h1{
     .con3{
         width: 100vw;
         top: 820px;
+    }
+    .nav-element1{
+        display: flex;
+        list-style: none;
+        flex-direction: row;      
+    }
+    .nav-element2{
+        display: inline-block;
+        font-size: 20px;
+        margin: 10px;
+        margin-top: 26px;
+    }
+    #bars{
+        font-size: 35px;
+        position: relative;
+        margin: 0px;
+        left: -95px;
+        top: 20px;
     }
 }
