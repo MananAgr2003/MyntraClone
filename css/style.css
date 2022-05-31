@@ -180,13 +180,26 @@ h1{
     nav{
         width: 100vw;
     }
+    .con1-img{
+        height: 200px;
+    }
     .con1{
         width: 100vw;
     }
     .con2{
         width: 100vw;
+        top: 370px;
+    }
+    .con2 h1{
+        width: 80%;
+        font-size: 25px;
+    }
+    .con3 h1{
+        width: 80%;
+        font-size: 25px;
     }
     .con3{
         width: 100vw;
+        top: 820px;
     }
 }
