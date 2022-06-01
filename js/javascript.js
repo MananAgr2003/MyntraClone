@@ -90,11 +90,31 @@ function getimg15() {
     let img = myimg.getAttribute('src');
     myimg.setAttribute('src', './img/banners/banner6.webp');
 }
+function getdeal0(){
+    let myimg = document.getElementById('deal');
+    let img = myimg.getAttribute('src');
+    myimg.setAttribute('src', './img/deals/deal1.webp');
+}
+function getdeal1(){
+    let myimg = document.getElementById('deal');
+    let img = myimg.getAttribute('src');
+    myimg.setAttribute('src', './img/deals/deal2.webp');
+}
+function getdeal2(){
+    let myimg = document.getElementById('deal');
+    let img = myimg.getAttribute('src');
+    myimg.setAttribute('src', './img/deals/deal3.webp');
+}
+function getdeal3(){
+    let myimg = document.getElementById('deal');
+    let img = myimg.getAttribute('src');
+    myimg.setAttribute('src', './img/deals/deal4.webp');
+}
 var num = 0;
 setInterval(function () {
 
     num = num + 1;
-    if (num > 7) {
+    if (num > 15) {
         num = 0;
     }
     let myimg = document.getElementById('con1_img');
@@ -102,6 +122,7 @@ setInterval(function () {
 
     if (num == 0) {
         getimg0();
+
     } else if (num == 1) {
         getimg1();
     }
@@ -149,4 +170,30 @@ setInterval(function () {
     }
 }
     , 3500);
+    var num1 = 0;
+
+    setInterval(function(){
+
+        num1 = num1 + 1;
+        if(num1 >4){
+            num1 = 0;
+        }
+
+        if(num1==0){
+            getdeal0();
+        }
+
+        if(num1==1){
+            getdeal1();
+        }
+
+        if(num1==2){
+            getdeal2();
+        }
+
+        if(num1==3){
+            getdeal3();
+        }
+
+    }, 3500);
 

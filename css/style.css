@@ -132,8 +132,8 @@ h1{
 }
 .con2-table{
     width: 100%;
-    overflow-x: scroll;
     overflow-y: hidden;
+        overflow-x: scroll;
     display: grid;
     
     grid-template-columns:repeat(9 , auto);
@@ -154,9 +154,10 @@ h1{
     width: 98.9vw;
 }
 .con3-table{
-    overflow-x: scroll;
-    overflow-y: hidden;
     
+    
+    overflow-y: hidden;
+        overflow-x: scroll;
     width:100%;
     padding: 0px;
     display: grid;
@@ -168,78 +169,6 @@ h1{
 .con3 h1{
 
     width: 80%;
-}
-@media(max-width : 950px){
-    .nav-element{
-        display: none;
-    }
-    #logo{
-        top: 10px;
-        left: 65px;
-    }
-    .con2-table{
-        width: 100%;
-        padding: 0px;
-        display: grid;
-        column-gap: 0px;
-        grid-template-columns:repeat(9 , auto);
-        margin-top: 80px;overflow-x: scroll;
-    }
-    .con3-table{
-        overflow-y: hidden;
-        overflow-x: scroll;
-        width: 100vw;
-        padding: 0px;
-        display: grid;
-        column-gap: 0px;
-        grid-template-rows: repeat(2,auto);
-        grid-template-columns:repeat(9 , auto);
-        margin-top: 80px;
-    }
-    nav{
-        width: 100vw;
-    }
-    .con1-img{
-        height: 160px;
-    }
-    .con1{
-        width: 100vw;
-    }
-    .con2{
-        width: 100vw;
-        top: 330px;
-    }
-    .con2 h1{
-        width: 80%;
-        font-size: 25px;
-    }
-    .con3 h1{
-        width: 80%;
-        font-size: 25px;
-    }
-    .con3{
-        width: 100vw;
-        top: 780px;
-    }
-    .nav-element1{
-        display: flex;
-        list-style: none;
-        flex-direction: row;      
-    }
-    .nav-element2{
-        display: inline-block;
-        font-size: 20px;
-        margin: 10px;
-        margin-top: 26px;
-        
-    }
-    #bars{
-        font-size: 35px;
-        position: relative;
-        margin: 0px;
-        left: -95px;
-        top: 20px;
-    }
 }
 
 #popboxs{
@@ -255,8 +184,8 @@ h1{
     overflow-y: scroll;
 }
 #cross{
-   
-
+    
+    
     position: absolute;
     right: 8px;
     font-size: 30px;
@@ -272,3 +201,156 @@ h1{
     opacity: 0.5;
     padding: 10px 0px 23px 10px;
 }
+.con4{
+    height: 400px;
+    position: absolute;
+    top: 1670px;
+    width: 98.9vw;
+    
+}
+.con4 h1{
+    width: 80%;
+}
+.con4-table{   
+    
+    width:99%;
+    padding: 0px;
+    display: grid;
+        column-gap: 0px;
+        grid-template-rows: repeat(3,auto);
+        grid-template-columns:repeat(8 , auto);
+        margin-top: 80px;
+       
+    }
+    .table-item1 img{
+      height: 256px;
+      width:189px;
+    }
+
+    .con5{
+        height: 800px;
+position: absolute;
+top: 2625px;
+width: 98.9vw;
+
+    }
+    .con5 h1{
+        width: 80%;
+        padding-bottom: 105px;
+    }
+    .con5 img {
+        width: 100%;
+        height: 400px;
+    }
+
+
+
+
+
+
+
+        @media(max-width : 950px){
+            .nav-element{
+                display: none;
+            }
+            #logo{
+                top: 10px;
+                left: 65px;
+            }
+            .con2-table{
+                width: 100%;
+                padding: 0px;
+                display: grid;
+                column-gap: 0px;
+                grid-template-columns:repeat(9 , auto);
+                margin-top: 80px;overflow-x: scroll;
+            }
+            .con3-table{
+                overflow-y: hidden;
+                overflow-x: scroll;
+                width: 100vw;
+                padding: 0px;
+                display: grid;
+                column-gap: 0px;
+                grid-template-rows: repeat(2,auto);
+                grid-template-columns:repeat(9 , auto);
+                margin-top: 80px;
+            }
+            .con4-table{
+                overflow-y: hidden;
+                overflow-x: scroll;
+                width: 100vw;
+                padding: 0px;
+                display: grid;
+                column-gap: 0px;
+                grid-template-rows: repeat(3,auto);
+                grid-template-columns:repeat(8 , auto);
+                margin-top: 80px;
+            }
+            
+            nav{
+                width: 100vw;
+            }
+            .con1-img{
+                height: 160px;
+            }
+            .con1{
+                width: 100vw;
+            }
+            .con2{
+                width: 100vw;
+                top: 330px;
+            }
+            .con2 h1{
+                width: 80%;
+                font-size: 25px;
+            }
+            .con3 h1{
+                width: 80%;
+                font-size: 25px;
+            }
+            .con3{
+                width: 100vw;
+                top: 780px;
+            }
+            .con4 h1{
+                width: 80%;
+                font-size: 25px;
+            }
+            .con4{
+                
+                width: 100vw;
+                top: 1480px;
+            }
+            .nav-element1{
+                display: flex;
+                list-style: none;
+                flex-direction: row;      
+            }
+            .nav-element2{
+                display: inline-block;
+                font-size: 20px;
+                margin: 10px;
+                margin-top: 26px;
+                
+            }
+            #bars{
+                font-size: 35px;
+                position: relative;
+                margin: 0px;
+                left: -95px;
+                top: 20px;
+            }
+            .con5 h1{
+                width: 80%;
+                font-size: 25px;
+            }
+            .con5 img{
+                height: 160px;
+            }
+            .con5{
+                height: 400px;
+                top: 2450px;
+            }
+        }
+        
