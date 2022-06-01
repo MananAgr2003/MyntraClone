@@ -1,3 +1,11 @@
+function showMenu(){
+
+    document.getElementById('popboxs').style.display = "block";
+}       
+function hideMenu(){
+
+    document.getElementById('popboxs').style.display = "none";
+}       
 function getimg0() {
     let myimg = document.getElementById('con1_img');
     let img = myimg.getAttribute('src');
@@ -83,8 +91,8 @@ function getimg15() {
     myimg.setAttribute('src', './img/banners/banner6.webp');
 }
 var num = 0;
-setInterval(function() {
-    
+setInterval(function () {
+
     num = num + 1;
     if (num > 7) {
         num = 0;
@@ -95,10 +103,10 @@ setInterval(function() {
     if (num == 0) {
         getimg0();
     } else if (num == 1) {
-       getimg1();
+        getimg1();
     }
     else if (num == 2) {
-       getimg2();
+        getimg2();
     }
     else if (num == 3) {
         getimg3();
@@ -141,3 +149,4 @@ setInterval(function() {
     }
 }
     , 3500);
+

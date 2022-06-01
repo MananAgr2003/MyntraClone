@@ -13,11 +13,33 @@
 </head>
 
 <body>
+    <div id="popboxs"><i id="cross" class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <img src="./img/pop.jpg" alt="">
+        <ul>
+            <li class="pop-item">MEN</li>
+            <li class="pop-item">WOMEN</li>
+            <li class="pop-item">KIDS</li>
+            <li class="pop-item">HOME</li>
+            <li class="pop-item">BEAUTY</li>
+        </ul>
+        <hr>
+        <ul>
+            <li class="pop-item1">MYNTRA STUDIO</li>
+            <li class="pop-item1">MYNTRA MALL</li>
+            <li class="pop-item1">MYNTRA INSIDER</li>
+            <li class="pop-item1">GIFT CARDS</li>
+            <li class="pop-item1">CONTACT US</li>
+
+            <li class="pop-item1">FAQs</li>
+            <li class="pop-item1">LEGAL</li>
+        </ul>
+        <img src="./img/pop2.jpg" alt="">
+    </div>
     <div id="navbar">
         <nav>
             <img src="./img/logo.png" alt="" id="logo">
             <ul>
-                <li id="bars" class="nav-element2"><i class="fa-solid fa-bars"></i></li>
+                <li id="bars" class="nav-element2" onclick="showMenu()"><i class="fa-solid fa-bars"></i></li>
                 <li class="nav-element">MEN</li>
                 <li class="nav-element">WOMEN</li>
                 <li class="nav-element">KIDS</li>
@@ -104,7 +126,11 @@
     </div>
 
 
-    <script src="./js/javascript.js"></script>
+    <script src="./js/javascript.js">
+        var menu = document.getElementById("popboxs");
+        menu.addEventListener("click", showMenu);
+
+    </script>
 
 
 </body>
