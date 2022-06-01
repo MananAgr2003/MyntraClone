@@ -243,6 +243,7 @@ h1 {
 }
 
 .con4-table {
+    background-color: #F6F6F6;
     overflow-x: scroll;
     width: 99%;
     padding: 0px;
