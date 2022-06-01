@@ -200,14 +200,14 @@ h1{
         width: 100vw;
     }
     .con1-img{
-        height: 200px;
+        height: 160px;
     }
     .con1{
         width: 100vw;
     }
     .con2{
         width: 100vw;
-        top: 370px;
+        top: 330px;
     }
     .con2 h1{
         width: 80%;
@@ -219,7 +219,7 @@ h1{
     }
     .con3{
         width: 100vw;
-        top: 820px;
+        top: 780px;
     }
     .nav-element1{
         display: flex;
@@ -243,7 +243,7 @@ h1{
 }
 
 #popboxs{
-    border: 2px solid  red;
+    
     z-index: 15;
     left: 0px;
     top: 0px;
