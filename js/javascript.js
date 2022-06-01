@@ -110,6 +110,34 @@ function getdeal3(){
     let img = myimg.getAttribute('src');
     myimg.setAttribute('src', './img/deals/deal4.webp');
 }
+function navpops(){
+   document.getElementById('navpop').style.display = 'block';
+   document.getElementById('navpop').style.left = '130px';
+}
+function navpops1(){
+   document.getElementById('navpop').style.display = 'block';
+   document.getElementById('navpop').style.left = '200px';
+}
+function navpops2(){
+    document.getElementById('navpop').style.display = 'block';
+    document.getElementById('navpop').style.left = '290px';
+}
+function navpops3(){
+    document.getElementById('navpop').style.display = 'block';
+    document.getElementById('navpop').style.left = '360px';
+}
+function navpops4(){
+    document.getElementById('navpop').style.display = 'block';
+    document.getElementById('navpop').style.left = '440px';
+}
+function navpops5(){
+    document.getElementById('navpop').style.left = '530px';
+   document.getElementById('navpop').style.display = 'block';
+}
+function navclose(){
+   document.getElementById('navpop').style.display = 'none';
+   document.getElementById('navpop').style.left = '130px';
+}
 var num = 0;
 setInterval(function () {
 
